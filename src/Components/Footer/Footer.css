@@ -1,0 +1,76 @@
+:root{
+    --primaryy :rgba(0, 0, 0, 1.65);
+    --secondaryy: rgb(22, 10, 83,1.65)
+    
+}
+
+footer{
+    background:linear-gradient(135deg ,var(--primaryy),var(--secondaryy));
+    height: 80rem;    
+    width: 100%;
+    color: white;
+    display: flex;
+}
+.see{
+    margin-top: 10rem;
+    font-weight: bold;
+}
+.game_section{
+    display: flex;
+    align-items: center;   
+    
+}
+.image1{    
+    margin-top: 5rem;
+    height: 15rem;
+    width: 30rem;
+}
+.contents p{
+    margin-left: 6rem;
+    
+}
+.complete{
+    margin-top: 5rem;
+    max-width: fit-content;
+    height: 3rem;
+    padding: 1rem 1rem ;
+    background-color: #7501ff;
+    transform:skewX(-5deg);
+    outline: none;
+}
+.death{
+    font-size: 2rem;
+}
+.date{
+    font-size: 1.5rem;
+    color: orange;
+}
+.livetv{
+    margin-left: 10rem;
+    
+}
+.game_section{
+    border: #7501ff 1px solid;
+    border-radius: 2rem;
+    border-top: none;
+}
+@media screen and (max-width: 600px){
+    .gam{        
+        display: none;
+    }.game_section{
+        margin-top: 7rem;
+    }.game_section img{
+        display: block;
+        width: 20rem;
+        margin-left: 15px;
+        
+    }.contents{
+        margin-top: 35rem;
+        margin-left: -25rem;
+    }.complete{
+        display: none;
+    }.livetv{
+        margin-left: -10rem;
+        margin-top: -15rem;
+    }
+}

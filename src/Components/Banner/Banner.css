@@ -1,0 +1,56 @@
+ :root{
+    --primary :hsla(234, 97%, 8%,0.65);
+    --secondary: hsla(280, 96%, 15%,1.65)
+    
+}
+
+.banner{
+    height: max-content;
+    display: flex;
+    height: 900px;
+    background:linear-gradient(135deg ,var(--primary),var(--secondary)),
+     url('https://cdn.wallpapersafari.com/86/14/oMknxN.jpg') no-repeat center center / cover;
+     color: hsl(280, 81%, 15%);    
+     color: white;
+} 
+
+.container_head{
+    margin-top: 20%;    
+    font-size: 40px;
+    line-height: 3rem;    
+}
+.lorem{
+    margin-top: 300%;
+    margin-left: -23rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.read{
+    margin-top: 3rem;        
+    padding: 1rem;
+    background-color: #7501ff;
+    transform:skewX(-15deg);
+    outline: none; 
+} 
+.game1{
+    position: absolute;
+    left: 26%;
+}
+.game{
+    position: absolute;
+    left: 10%;        
+}
+.para{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
+@media screen and (max-width: 600px){
+    .game{
+        margin-top: 17rem;
+    }
+    .game1{
+        margin-top: 20rem;
+        margin-left: -4rem;
+    }
+}
